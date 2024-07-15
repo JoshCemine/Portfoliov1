@@ -35,11 +35,10 @@ const workExperience = [
 const Experience = () => {
   return (
     <div id='Experience' className='w-[60%] float-right text-left pt-40'>
-      {/* <h1 className='mb-6'>Experience</h1> */}
 
       <div className='border-black border-l-2'>
         {workExperience.map((exp, index) => (
-            <div key={index} className='grid grid-cols-4 mb-8 ml-6'>
+            <div key={index} className='transition ease-in-out hover:blur-effect grid grid-cols-4 mb-8 pl-6'>
                 <span className='col-span-1 text-sm'> {exp.duration} </span>
 
                 <div className='col-span-3 ml-8'>

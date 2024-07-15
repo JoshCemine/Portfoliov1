@@ -32,7 +32,8 @@ const Projects = () => {
   return (
     <div id='Projects' className='w-[60%] float-right text-left pt-40 mb-40'>
         {projects.map((project, index) => (
-            <div className='grid grid-cols-5 [&:not(:last-child)]:border-b-2 [&:not(:last-child)]:pb-8 [&:not(:last-child)]:mb-8 border-sky-500' key={index}>
+          <div>
+            <div className='transition ease-in-out hover:blur-effect grid grid-cols-5 p-6' key={index}>
               <div className='col-span-2 bg-slate-700'>
                 Img
               </div>
@@ -45,6 +46,8 @@ const Projects = () => {
                 <button className='mt-6'>Link</button>
               </div>
             </div>
+            {/* {projects.length > index+1 && <div className='border-b-2 border-sky-500 mb-8 mt-8'></div>}             */}
+          </div>
         ))}
     </div>
   )

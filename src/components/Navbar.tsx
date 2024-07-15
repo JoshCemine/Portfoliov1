@@ -7,11 +7,11 @@ function Navbar() {
     <div>
       <div className='lg:fixed lg:float-start lg:top-16 text-start px-4 py-2 w-[30%] max-w-[450px]'>
         <div>
-          <h1>Josh Cemine</h1>
-          <h2>Fullstack Web Developer</h2>
-          <p>
+          <h1 className='text_fade'>Josh Cemine</h1>
+          <h2 className='text_fade'>Fullstack Web Developer</h2>
+          {/* <p>
             I like making things, and if you're here, you want someone to make stuff for you. Looks like we have something in common so let's set up a date to get to know each other lmao
-          </p>
+          </p> */}
         </div>
 
         <div className='mt-4 space-y-4'>
@@ -20,7 +20,9 @@ function Navbar() {
               to='About' 
               smooth={true} 
               spy={true}
-              duration={500} 
+              offset={-200}
+              duration={200} 
+              isDynamic={true}
               className='cursor-pointer' 
               activeClass='active'
               style={{ padding: '10px', color: 'black', transition: 'color 0.3s' }}
@@ -32,7 +34,9 @@ function Navbar() {
               to='Experience' 
               smooth={true} 
               spy={true}
-              duration={500} 
+              offset={-200}
+              duration={200} 
+              isDynamic={true}
               className='cursor-pointer' 
               activeClass='active'
               style={{ padding: '10px', color: 'black', transition: 'color 0.3s' }}
@@ -43,8 +47,10 @@ function Navbar() {
             <Link 
               to='Projects' 
               smooth={true} 
-              duration={500} 
+              duration={200} 
+              isDynamic={true}
               spy={true} 
+              offset={-200}
               className='cursor-pointer' 
               activeClass='active'
               style={{ padding: '10px', color: 'black', transition: 'color 0.3s' }}
