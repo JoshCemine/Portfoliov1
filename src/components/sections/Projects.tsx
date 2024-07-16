@@ -1,5 +1,3 @@
-import React from 'react'
-
 const projects = [
     {
       title: "Project Ceboom",
@@ -46,7 +44,7 @@ const Projects = () => {
                 <button className='mt-6'>Link</button>
               </div>
             </div>
-            {/* {projects.length > index+1 && <div className='border-b-2 border-sky-500 mb-8 mt-8'></div>}             */}
+            {/* {projects.length > index+1 && <div className='border-b-2 border-sky-500 mb-8 mt-8'></div>}       q       */}
           </div>
         ))}
     </div>

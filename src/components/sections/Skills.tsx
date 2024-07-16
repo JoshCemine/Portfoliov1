@@ -1,4 +1,3 @@
-import React from 'react';
 import { CircularProgressbarWithChildren, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import '../../App.css'; // Import the CSS for keyframes and additional styles
