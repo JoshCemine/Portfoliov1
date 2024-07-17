@@ -61,7 +61,7 @@ function Navbar() {
         <div className='lg:fixed lg:float-start lg:bottom-16 lg:w-[30%] lg:max-w-[450px]'>
           <ul className="flex flex-wrap lg:justify-start justify-center">
               <li className='socials-list-item'>
-                  <a className="facebook lg:ml-[10px] ml-[30px]" href="#">
+                  <a className="facebook lg:ml-[10px] ml-[30px]" href="https://www.facebook.com/JoshCemin/">
                       <span></span>
                       <span></span>
                       <span></span>
@@ -73,7 +73,7 @@ function Navbar() {
                   </a>
               </li>
               <li className='socials-list-item'>
-                  <a className="twitter" href="#">
+                  <a className="twitter" href="https://www.linkedin.com/in/JoshCemine">
                       <span></span>
                       <span></span>
                       <span></span>
@@ -85,7 +85,7 @@ function Navbar() {
                   </a>
               </li>
               <li className='socials-list-item'>
-                  <a className="github" href="#">
+                  <a className="github" href="https://github.com/JoshCemine">
                       <span></span>
                       <span></span>
                       <span></span>
