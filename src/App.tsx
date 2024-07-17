@@ -11,16 +11,15 @@ function App() {
 
   return (
     
-        <div className='w-[100%] h-[100%] app-container'>     
-          <div className='w-[1080px] fixed color-div'></div>
-          <div className='w-[1080px] fixed color-div'></div>
-          <Navbar />
-          <About />
-          <Experience />
-          <Projects />
-    
-        
-        </div>   
+    <div className='w-[100%] h-[100%] app-container'>     
+      <div className='w-[1080px] fixed color-div'></div>    
+      <div className='w-[1080px] fixed color-div'></div>
+      <div className='w-[1080px] fixed color-div'></div>
+      <Navbar />
+      <About />
+      <Experience />
+      <Projects />
+    </div>   
     
      
   )

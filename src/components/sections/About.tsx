@@ -3,7 +3,7 @@ import Photo from '../../assets/Photo.jpg';
 
 const About = () => {
   return (
-    <div id="About" className='transition ease-in-out md:px-[10%] lg:px-0 lg:w-[60%] lg:pt-16 float-right hover:blur-effect'>
+    <div id="About" className='transition ease-in-out md:px-[10%] lg:px-0 lg:w-[60%] lg:mt-12 lg:pt-4 float-right hover:blur-effect'>
       <div className='p-8 rounded-md'>
         <div className='flex flex-col-reverse lg:flex-row items-center lg:items-start mb-8 lg:mb-5'>
           <div className='text-left lg:w-3/5'>

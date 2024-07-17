@@ -32,19 +32,19 @@ const workExperience = [
 
 const Experience = () => {
   return (
-    <div id='Experience' className='w-[60%] float-right text-left pt-40'>
+    <div id='Experience' className='lg:w-[60%] float-right text-left pt-40'>
 
       <div className='border-black border-l-2'>
         {workExperience.map((exp, index) => (
-            <div key={index} className='transition ease-in-out hover:blur-effect grid grid-cols-4 mb-8 pl-6'>
+            <div key={index} className='transition ease-in-out hover:blur-effect grid grid-cols-4 py-4 pl-6 container-card bg-box'>
                 <span className='col-span-1 text-sm'> {exp.duration} </span>
 
                 <div className='col-span-3 ml-8'>
-                  <span className='font-bold'> {exp.company} · {exp.position}</span>                
+                  <span className='font-bold card-title'> {exp.company} · {exp.position}</span>                
 
                   <div className=''>
                     {exp.responsibilities.map((res, index2) => (
-                        <p key={index2}> {res} </p>
+                        <p className="card-description" key={index2}> {res} </p>
                     ))}  
                   </div>
                 </div>

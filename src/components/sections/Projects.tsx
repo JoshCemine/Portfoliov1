@@ -1,8 +1,14 @@
+import croc from '../../assets/croc.png';
+import ars from '../../assets/ars.png';
+import ceboom from '../../assets/ceboom.png';
+
 const projects = [
     {
       title: "Project Ceboom",
-      duration: "November 2022 - January 2023",
+      duration: "January 2023",
       role: "Backend/DevOps Developer",
+      link: "https://github.com/sansqed/project-ceboom",
+      pic: ceboom,
       description: [
         "Demonstrated collaborative skills by working with the entire batch.",
         "Contributed in integrating a shortest path algorithm."
@@ -10,42 +16,46 @@ const projects = [
     },
     {
       title: "College of Science Automatic Request System",
-      duration: "February 2023 - December 2024",
+      duration: "December 2023",
+      role: "Backend/DevOps Developer",
+      link: "https://github.com/johnochea/croma",
+      pic: ars,
       description: [
         "Collaborated with a team of five to design and implement a web application for students to request their student forms from the college secretary",
         "Utilized a tech stack consisting of React, Express, SQL, and PHP"
       ]
     },
     {
-      title: "College of Science Automatic Request System",
-      duration: "February 2023 - December 2024",
+      title: "CROC vs PNG",
+      duration: "November 2023",
+      role: "Backend Developer",
+      link: "https://github.com/naixsu/crocpng",
+      pic: croc,
       description: [
-        "Collaborated with a team of five to design and implement a web application for students to request their student forms from the college secretary",
-        "Utilized a tech stack consisting of React, Express, SQL, and PHP"
+        "In the game, the players battle and defend themselves from waves of Phantom Naz Ghouls (PNGs) and prevent them from killing the players and reaching their goal. The enemy's goal is to destroy the Central Resistance against Otherworldly Creatures (CROC) facility. The game ends either when the facility is destroyed by the enemy, or the CROCs emerge victorious and successfully fend off the waves of PNGs."
       ]
     }
   ];  
 
 const Projects = () => {
   return (
-    <div id='Projects' className='w-[60%] float-right text-left pt-40 mb-40'>
+    <div id='Projects' className='lg:w-[60%] float-right text-left pt-40 mb-40'>
         {projects.map((project, index) => (
-          <div>
+          <a href={project.link}>
             <div className='transition ease-in-out hover:blur-effect grid grid-cols-5 p-6' key={index}>
-              <div className='col-span-2 bg-slate-700'>
-                Img
-              </div>
+              <div className='col-span-2 flex items-center'>
+                <img className='' src={project.pic} alt="" /> 
+              </div>         
+              
               <div className='col-span-3 ml-10'>
-                <h3 className='font-bold'> {project.title} </h3>
-                <h4 className='font-semibold'> {project.role} </h4>
+                <h3> {project.title} </h3>
+                <h4> {project.role} </h4>
 
                 <span> { project.duration } </span>
                 <p> {project.description} </p>
-                <button className='mt-6'>Link</button>
               </div>
             </div>
-            {/* {projects.length > index+1 && <div className='border-b-2 border-sky-500 mb-8 mt-8'></div>}       q       */}
-          </div>
+          </a>
         ))}
     </div>
   )

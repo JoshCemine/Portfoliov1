@@ -10,27 +10,6 @@
   text-align: center;
 }
 
-body{
-  color: brown;
-  background-color: white;
-}
-
-h1{
-
-}
-
-h2{
-
-}
-
-h3{
-
-}
-
-h4{
-
-}
-
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;

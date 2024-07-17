@@ -10,13 +10,13 @@ const skills = [
   { name: 'PHP', percentage: 70 }
 ];
 
-const words = ["HTML", "CSS", "JavaScript", "SSG", "webdev", "animation", "UI/UX"];
+const words = ["HTML", "CSS", "JavaScript", "SSG", "webdev", "animation"];
 
 const Skills = () => {
   return (
     <div className='p-8'>
       <div className='flex flex-col items-center mb-8'>
-        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 w-full'>
+        <div className='grid grid-cols-5 gap-6 w-full'>
           {skills.map((skill, index) => (
             <div key={index} className='flex flex-col items-center text-center'>
                 <CircularProgressbarWithChildren
