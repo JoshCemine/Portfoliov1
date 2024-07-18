@@ -10,8 +10,7 @@ const projects = [
       link: "https://github.com/sansqed/project-ceboom",
       pic: ceboom,
       description: [
-        "Demonstrated collaborative skills by working with the entire batch.",
-        "Contributed in integrating a shortest path algorithm."
+        "A class project made with over 30 people to find the shortest path to get to your destination within the city. My contributions were in the backend development and the deployment through DevOps operations."
       ]
     },
     {
@@ -21,8 +20,7 @@ const projects = [
       link: "https://github.com/johnochea/croma",
       pic: ars,
       description: [
-        "Collaborated with a team of five to design and implement a web application for students to request their student forms from the college secretary",
-        "Utilized a tech stack consisting of React, Express, SQL, and PHP"
+        "A project requested by the College Secretary to implement an all-in-one method for the admin, signatories, students and the college secretary to process form requests. My contributions were in the development of the backend APIs, and the implementation of the CI/CD, tests and deployment of the application."
       ]
     },
     {
@@ -32,7 +30,17 @@ const projects = [
       link: "https://github.com/naixsu/crocpng",
       pic: croc,
       description: [
-        "In the game, the players battle and defend themselves from waves of Phantom Naz Ghouls (PNGs) and prevent them from killing the players and reaching their goal. The enemy's goal is to destroy the Central Resistance against Otherworldly Creatures (CROC) facility. The game ends either when the facility is destroyed by the enemy, or the CROCs emerge victorious and successfully fend off the waves of PNGs."
+        "In the game, the players battle and defend themselves from waves of Phantom Naz Ghouls (PNGs) and prevent them from killing the players and reaching their goal. My contributions where in the synchronization of the players and the various weapon features."
+      ]
+    },
+    {
+      title: "Portfolio Website v1",
+      duration: "July 2024",
+      role: "Fullstack Developer",
+      link: "https://github.com/JoshCemine/Portfoliov1",
+      pic: "",
+      description: [
+        "My very first portfolio website. The website you're looking at right now!"
       ]
     }
   ];  

@@ -9,10 +9,10 @@ const About = () => {
           <div className='text-left lg:w-3/5'>
             {/* <h2 className='text-2xl font-bold mb-4'>About Me</h2> */}
             <p className='mb-4'>
-              Etiam turpis est, sollicitudin ultricies quam ac, fringilla blandit massa. Nunc nunc felis, ultrices eget mi non, viverra suscipit nisi. Phasellus eget lacinia est, vel tempor augue. Mauris id ante a massa hendrerit euismod non in metus.
+              Hi there! I'm <span className='font-bold'>Josh Cemine</span>, a graduate of the University of the Philippines - Cebu. I've been coding for about 5 years now and I have to say I can't get enough of it. As cliche as it sounds, it's a <span className='font-bold'>passion</span> for me.
             </p>
             <p>
-              Integer varius sem ut ex hendrerit, quis accumsan massa pellentesque. Nam at sagittis lectus, vitae egestas lacus. Nunc molestie ut erat semper rutrum. Cras congue est in ante iaculis, a tincidunt elit varius. Aenean volutpat sem non ex facilisis, non sagittis justo porta. Nullam nec tincidunt tellus. Duis in efficitur massa. Aenean rhoncus.
+              I've had the chance work with some amazing people, and going forward, I hope to work with even more amazing people. As someone new to the industry, I'm looking forward to the chance to grow even more. So go on and <span className='font-bold'>scroll down</span> to come and know me better!
             </p>
           </div>
           <img src={Photo} alt="Profile" className='max-w-[30%] lg:max-w-[25%] mb-4 lg:mb-0 lg:ml-6 shadow-lg' />

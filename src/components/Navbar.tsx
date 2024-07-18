@@ -17,7 +17,7 @@ function Navbar() {
               to='About' 
               smooth={true} 
               spy={true}
-              offset={-200}
+              offset={-300}
               duration={200} 
               isDynamic={true}
               className='cursor-pointer' 
@@ -31,7 +31,7 @@ function Navbar() {
               to='Experience' 
               smooth={true} 
               spy={true}
-              offset={-200}
+              offset={-300}
               duration={200} 
               isDynamic={true}
               className='cursor-pointer' 
@@ -47,7 +47,7 @@ function Navbar() {
               duration={200} 
               isDynamic={true}
               spy={true} 
-              offset={-200}
+              offset={-300}
               className='cursor-pointer' 
               activeClass='active'
               style={{ padding: '10px', color: 'black', transition: 'color 0.3s' }}
